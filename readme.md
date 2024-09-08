@@ -5,6 +5,11 @@
 - 구글 웹 폰트 Popins
 - fontawesome
 
+## 참고 사이트
+
+- clip path generator  
+  : https://www.cssportal.com/css-clip-path-generator/
+
 ### study
 
 - 초기화
