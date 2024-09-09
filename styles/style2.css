@@ -454,6 +454,25 @@ section {
 	transform: scale(1);
 }
 
+/* Blogs Section */
+.blogs {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2rem;
+	margin-top: 3rem;
+	.blog {
+		position: relative;
+		background-color: var(--color-grey-5);
+		border-radius: 5px;
+		box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+		transition: all 0.4s ease-in;
+		&:hover {
+			box-shadow: 1px 1px 2pxp rgba(0, 0, 0, 0.3);
+			transform: translateY(-5px);
+		}
+	}
+}
+
 /* independent contents */
 .btn-con {
 	display: flex;
